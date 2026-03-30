@@ -3,7 +3,7 @@ const { Deck } = require("../../src/domain/Deck");
 
 describe("Deck", () => {
   test("draw removes a card", () => {
-    const cards = [new Card("A", "♠"), new Card("K", "♠")];
+    const cards = [new Card("A", "spades"), new Card("K", "spades")];
     const deck = new Deck(cards);
     const drawn = deck.draw();
     expect(drawn).toBeInstanceOf(Card);
