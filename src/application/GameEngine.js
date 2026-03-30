@@ -1,4 +1,4 @@
-const { Deck } = require("../domain");
+const { Deck } = require("../domain/Deck");
 
 /**
  * Coordinates deck, players, and turns.

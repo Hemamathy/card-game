@@ -1,4 +1,4 @@
-const GameEngine = require("../src/app/GameEngine");
+const GameEngine = require("../../src/application/GameEngine");
 
 describe("GameEngine", () => {
   test("starts a new game with a shuffled deck", () => {
