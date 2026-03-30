@@ -111,4 +111,5 @@ game.startNewGame();
 - Jest (unit testing)
 - ES6+ JavaScript
 - Git (version control)
-- ESLint – code linting to maintain consistent style and catch errors early
+- ESLint – code linting to maintain consistent style and catch errors early`
+

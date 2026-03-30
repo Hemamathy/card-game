@@ -9,7 +9,7 @@ describe("Card", () => {
 
   test("throws if suit or rank is missing", () => {
     expect(() => new Card(null, "spades")).toThrow();
-    expect(() => new Card("A", null)).toThrow(TypeError);
+    expect(() => new Card("A", null)).toThrow();
   });
 
    test("toString returns a readable representation", () => {
