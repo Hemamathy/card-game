@@ -14,7 +14,7 @@ class Deck {
     this.cards = [];
     for (const suit of suits) {
       for (const rank of ranks) {
-        this.cards.push(new Card(suit, rank));
+        this.cards.push(new Card(rank, suit));
       }
     }
     return this.cards;

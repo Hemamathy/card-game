@@ -2,14 +2,14 @@ const { Card } = require("../../src/domain/Card");
 
 describe("Card", () => {
   test("creates a card with suit and rank", () => {
-    const card = new Card("A", "♠");
+    const card = new Card("A", "spades");
     expect(card.rank).toBe("A");
-    expect(card.suit).toBe("♠");
+    expect(card.suit).toBe("spades");
   });
 
   test("throws if suit or rank is missing", () => {
-    expect(() => new Card(null, "♠")).toThrow();
-    expect(() => new Card("hearts", null)).toThrow(TypeError);
+    expect(() => new Card(null, "spades")).toThrow();
+    expect(() => new Card("A", null)).toThrow(TypeError);
   });
 
    test("toString returns a readable representation", () => {
