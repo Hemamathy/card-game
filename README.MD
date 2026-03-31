@@ -26,14 +26,14 @@ const { Card, Deck , GameEngine } = require("./index");
 
 This keeps imports clean and hides internal folder structure.
 
-📦 Installation
+# Installation
 git clone (https://github.com/Hemamathy/card-game)
 cd card-game
 npm install
 
 # Running the Example Game
 A simple CLI demo is included:
-node index.js
+node play.js
 
 You’ll see:
 - Your card
